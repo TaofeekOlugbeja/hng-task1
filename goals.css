@@ -31,10 +31,6 @@
   padding: 20px;
 }
 
-.goalsimage{
-  width: 400px;
-
-}
 .rhssection {
   width: 300px;
   background-color: aliceblue;
@@ -72,44 +68,55 @@ width: 300px;
 .detail{
   display: flex;
 }
-.herotextt {
-  align-items: normal;
-  order: 1;
-}
+
 .text{
   font-size: larger;
-  font-weight: 600px;
+  font-weight: 400px;
   margin-bottom: 24px;
   background-color: #ffffff;
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 16px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .textbox{
   display: flex;
   /* width: 500px; */
+  
 }
 
-.HeroImage {
-  order: 2;
-} 
-
 @media screen and (max-width: 600px) {
-  .ProductDesignHero {
+  .landingpage {
     flex-direction: column;
     padding: 30px;
   }
-  .HeroText {
+  .rhssection{
+    flex-direction: column; 
+    
+    display: flex;
+  }
+  .navbar{
+    width:fit-content;
+  }
+  .details{
+   background-color: aliceblue; 
+  }
+  
+  .detail{
+  display: flex;
+  flex-direction: column;
+  }
+  .heroText {
     order: 2;
   }
-  .HeroImage {
-    order: 1;
+  .profileimage {
+  width:300px;
   }
-  .HeroImage img {
-    height: 200px;
-    padding-left: 0;
+  .profileimage img {
+    width:300px;
+    /* padding-left: 0;
     border-radius: 0;
     margin-left: 0;
     gap: 0;
+    object-position: initial; */
   }
 }
