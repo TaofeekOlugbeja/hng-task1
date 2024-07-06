@@ -1,0 +1,115 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 12px;
+}
+
+.nav{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 500px;
+  
+}
+
+.landingpage {
+  display: flex;
+  /* align-items: center; */
+  background-color: #ffffff;
+  padding-left: 60px;
+  padding-right: 60px;
+  justify-content: space-between;
+}
+
+.lhssection{
+  width: 960px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+.goalsimage{
+  width: 400px;
+
+}
+.rhssection {
+  width: 300px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+.Gsection{
+  display: flex;
+  margin: 24px;
+}
+
+.Goalhero{
+  display: flex;
+}
+.Herotext{
+ font-weight: 400;
+ 
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.herotext{
+  padding-left: 24px;
+  padding-top: 40px;
+  padding-right: 24px;
+
+}
+.profileimage{
+width: 300px;
+}
+
+.details {
+  display: flex;
+}
+
+.detail{
+  display: flex;
+}
+.herotextt {
+  align-items: normal;
+  order: 1;
+}
+.text{
+  font-size: larger;
+  font-weight: 600px;
+  margin-bottom: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textbox{
+  display: flex;
+  /* width: 500px; */
+}
+
+.HeroImage {
+  order: 2;
+} 
+
+@media screen and (max-width: 600px) {
+  .ProductDesignHero {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .HeroText {
+    order: 2;
+  }
+  .HeroImage {
+    order: 1;
+  }
+  .HeroImage img {
+    height: 200px;
+    padding-left: 0;
+    border-radius: 0;
+    margin-left: 0;
+    gap: 0;
+  }
+}
