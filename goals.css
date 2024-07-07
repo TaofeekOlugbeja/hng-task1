@@ -32,7 +32,7 @@
 }
 
 .rhssection {
-  width: 300px;
+  
   background-color: aliceblue;
   padding: 20px;
 }
@@ -87,15 +87,22 @@ width: 300px;
 @media screen and (max-width: 600px) {
   .landingpage {
     flex-direction: column;
-    padding: 30px;
+    padding: 4px;
   }
   .rhssection{
     flex-direction: column; 
-    
+    width: 100%;
     display: flex;
+    padding: 0px;
+  }
+  .lhssection {
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
   }
   .navbar{
-    width:fit-content;
+    /* width:100%; */
+    display: none;
   }
   .details{
    background-color: aliceblue; 
@@ -109,7 +116,7 @@ width: 300px;
     order: 2;
   }
   .profileimage {
-  width:300px;
+  /* width:300px; */
   }
   .profileimage img {
     width:300px;
